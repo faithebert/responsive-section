@@ -19,22 +19,47 @@ html {
   box-sizing: inherit;
 }
 
+.wrapper {
+  background-color: #e5c30a;
+}
+
+.section-body {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 25em){
+  html {
+    line-height: 1.3;
+    font-size: 100%;
+  }
 
 
 }
 
 @media only screen and (min-width: 38em){
-
+  html {
+    line-height: 1.4;
+    font-size: 110%;
+  }
 
 }
 
 @media only screen and (min-width: 60em){
-
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
 
 }
 
 @media only screen and (min-width: 90em){
-
+  html {
+    line-height: 1.5;
+    font-size: 130%;
+  }
 
 }
