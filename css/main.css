@@ -32,7 +32,6 @@ body {
 
 .section-body {
   display: inline-block;
-  max-width: 45em;
 }
 
 h2 {
@@ -59,8 +58,10 @@ img {
   html {
     line-height: 1.3;
     font-size: 100%;
-    display: flex;
   }
+
+  .section-icon, .section-letter {
+    width: auto;
 
 }
 
@@ -84,7 +85,7 @@ img {
     max-width: 10em;
   }
 
-  .section-content {
+  .section-body {
     max-width: 45em;
   }
 
@@ -96,12 +97,25 @@ img {
     font-size: 120%;
   }
 
+  .wrapper {
+    padding: 0 1.3rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em){
   html {
     line-height: 1.5;
     font-size: 130%;
+  }
+
+  .wrapper {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .img-flex {
+    padding: 1rem;
   }
 
 }
