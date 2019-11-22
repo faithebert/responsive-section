@@ -32,13 +32,13 @@ body {
 
 .section-body {
   display: inline-block;
-  font-size: 1.5rem;
   max-width: 45em;
 }
 
 h2 {
   font-weight: bold;
   margin: 0;
+  font-size: 1.5rem;
 }
 
 p {
@@ -68,6 +68,24 @@ img {
   html {
     line-height: 1.4;
     font-size: 110%;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .section-icon {
+    flex-wrap: wrap;
+    order: 3;
+  }
+
+  .img-flex {
+    max-width: 10em;
+  }
+
+  .section-content {
+    max-width: 45em;
   }
 
 }
