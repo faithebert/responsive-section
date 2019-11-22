@@ -102,10 +102,6 @@ img {
     max-width: 10em;
   }
 
-  .section-body {
-    max-width: 45em;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
