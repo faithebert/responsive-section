@@ -31,7 +31,7 @@ section {
 
 .wrapper {
   max-width: 45em;
-  margin: 1rem;
+  margin: 1.4rem;
 }
 
 .section-body {
@@ -58,6 +58,15 @@ img {
   width: 49%;
 }
 
+.section-letter {
+  margin: auto;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -67,6 +76,10 @@ img {
 
   section {
     padding: 1rem;
+  }
+
+  .section-letter {
+    margin-left: 1rem;
   }
 
 }
